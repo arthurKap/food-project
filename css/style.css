@@ -109,6 +109,16 @@ body {
   line-height: 23px;
   margin-bottom: 30px;
 }
+.slider-buttons {
+  position: absolute;
+  right: 46px; 
+  bottom: 40px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
 .button-primery {
   background: #f47322;
   color: white;
@@ -445,4 +455,7 @@ body {
   color: #49494F;
   margin-top: 13px;
   margin-bottom: 25px;
+}
+.swiper {
+  position: relative;
 }
